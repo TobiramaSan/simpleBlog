@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app-content"> 
+        <div class="d-flex justify-content-center pt-2" id="spinner"> 
+        <div class="spinner-border text-primary"></div> 
+        </div> 
+        <div class="container pt-2" id="mainDiv"> 
+        </div> 
+        <div class="container"> 
+        <h2>Submit a post</h2> 
+        <form class="was-validated"> 
+        <div class="form-group"> 
+        <label for="title">Title:</label> 
+        <input type="text" class="form-control" id="title" placeholder="title of post" name="title"
+        required> 
+        <div class="valid-feedback">Valid.</div> 
+        <div class="invalid-feedback">Please fill out this field.</div> 
+        </div> 
+        <div class="form-group"> 
+        <label for="content">Content:</label> 
+        <textarea name="content" id="content" cols="30" rows="3"
+       class="form-control"
+        required></textarea> 
+        <div class="valid-feedback">Valid.</div> 
+        <div class="invalid-feedback">Please fill out this field.</div> 
+        </div> 
+        <button type="submit" class="btn btn-success">Submit</button> 
+        </form> 
+        </div> 
+        </div>
+</body>
+</html>
+
